@@ -1,0 +1,27 @@
+button {
+  margin: 0.5rem 0.2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: fit-content;
+  cursor: pointer;
+}
+
+button:active {
+  color: gray;
+}
+
+button:focus {
+  outline: none;
+}
+
+input[type="text"] {
+  padding: 0.7rem;
+  width:380px;
+  border-radius: 25px;
+  outline: none;
+  font: inherit;
+}
+
+input[type="text"]::placeholder {
+  padding: 0.5rem;
+}
